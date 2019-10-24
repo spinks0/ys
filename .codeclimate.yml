@@ -1,0 +1,16 @@
+version: "2"
+plugins:
+  eslint:
+    enabled: true
+
+exclude_patterns:
+  - ".circleci/"
+  - ".gitignore"
+  - "package.json"
+  - "yarn.lock"
+
+checks:
+  file-lines:
+    enabled: false
+  method-lines:
+    enabled: false
