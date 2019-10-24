@@ -1,5 +1,5 @@
 const unTested = () => {
-  console.log('untested thing..');
+  console.log('untested thing.. changed#1!');
 }
 
 const helloWorld = () => {
